@@ -1,9 +1,24 @@
 import xbmc
+import xbmcgui
 import json
 import urllib.request
 import time
 import threading
 import os
+
+# =========================
+# NOTIFICA INIZIALE
+# =========================
+xbmcgui.Dialog().notification(
+    "Kodi Discord RPC",
+    "Connected Via Proxy",
+    xbmcgui.NOTIFICATION_INFO,
+    3000
+)
+
+# =========================
+# CONFIG
+# =========================
 
 SERVER_URL = "http://127.0.0.1:5678/status"
 POLL_INTERVAL = 2
