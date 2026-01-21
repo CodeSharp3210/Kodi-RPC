@@ -1,0 +1,8 @@
+<settings>
+    <category label="General">
+        <setting id="rpc_enabled"
+                 type="bool"
+                 label="Enable Discord RPC"
+                 default="true" />
+    </category>
+</settings>

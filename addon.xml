@@ -1,0 +1,33 @@
+<addon id="plugin.program.cloverclient"
+       name="Clover Client"
+       version="1.0.0"
+       provider-name="MasterSharp">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+
+    <!-- PLUGIN (clic addon) -->
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>executable</provides>
+    </extension>
+
+    <!-- SERVICE (avvio Kodi) -->
+    <extension point="xbmc.service"
+               library="service.py" />
+
+    <!-- METADATA -->
+    <extension point="xbmc.addon.metadata">
+        <summary>Kodi Utility Tool</summary>
+        <description>Clover Client is a Kodi Addon Developed by MasterSharp and Itelcan3 to have Discord RPC and Misc Tools ready to use...</description>
+        <platform>all</platform>
+
+        <!-- ICONA -->
+        <icon>icon.png</icon>
+
+        <!-- FANART -->
+        <fanart>fanart.jpg</fanart>
+    </extension>
+
+</addon>

@@ -1,0 +1,35 @@
+<window>
+    <controls>
+        <control type="button" id="101">
+            <label>Enable/Disable Discord RPC</label>
+            <posx>400</posx>
+            <posy>300</posy>
+            <width>400</width>
+            <height>60</height>
+        </control>
+
+        <control type="button" id="102">
+            <label>Clean Cache</label>
+            <posx>400</posx>
+            <posy>380</posy>
+            <width>400</width>
+            <height>60</height>
+        </control>
+
+        <control type="button" id="103">
+            <label>Clean Logs</label>
+            <posx>400</posx>
+            <posy>460</posy>
+            <width>400</width>
+            <height>60</height>
+        </control>
+
+        <control type="button" id="104">
+            <label>Exit</label>
+            <posx>400</posx>
+            <posy>540</posy>
+            <width>400</width>
+            <height>60</height>
+        </control>
+    </controls>
+</window>
